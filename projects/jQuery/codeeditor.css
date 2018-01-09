@@ -1,0 +1,179 @@
+body{
+                
+                margin: 0;
+                
+                padding: 0;
+                
+                font-family: Trebuchet MS, Arial, sans-serif;
+                  
+            }
+            
+            #top-container{
+                                      
+                height:50px;
+                
+                width: 1920px;
+                
+                background-color: darkgray;
+                
+           }
+            
+            #title{
+                
+                float: left;
+                
+                position: relative;
+                
+                top:7px;
+                
+                background-color: #C0C0C0;
+                
+                padding-right: 2.5px;
+                
+                padding-left:2.5px;
+                
+                margin-left: 2.5px;
+                
+            }
+            
+            #buttons-segment{
+                
+                float: left;
+                
+                position: relative;
+                
+                left:490px;
+                
+                bottom:12px;
+                
+            }
+            
+            #outputPanel{
+                
+                float:left;
+                
+                border:none;
+                
+                margin:0 auto;
+                
+                border-bottom: 1px white solid;
+                        
+            }
+
+            
+            #html:hover{
+                
+                    
+                background-color: dimgrey;
+                
+                cursor: pointer;
+                
+                
+            }
+            
+            #css:hover{
+                
+                    
+                background-color: dimgrey;
+                
+                cursor: pointer;
+                
+            }
+            
+            #js:hover{
+                
+                    
+                background-color: dimgrey;
+                
+                cursor: pointer;
+                
+            }
+            
+            #output:hover{
+                
+                    
+                background-color: dimgrey;
+                
+                cursor: pointer;
+            
+            }
+            
+            .panel{
+                
+                float: left;
+                
+                position:relative;
+                
+                bottom:28px;
+                
+                margin:0 auto;
+                
+                width:25%;
+                
+                height:100%;
+                
+               resize: none;
+                
+                border-top: 1px white solid;
+                
+                border-right: 1px black solid;
+           
+            }
+
+            .button{
+                
+                float: left;
+                
+                border-right: 1px white solid;
+                
+                border-bottom: 1px white solid;
+                
+                border-top:1px white solid;
+                
+                height: 25px;
+                
+                padding:10px 10px;
+                
+                margin-top: 10px;
+                
+                position: relative;
+                
+                top:3px;
+                    
+            }
+            
+            .border-radius-left{
+                
+                border-left:1px white solid;
+                
+                border-top-left-radius: 25px;
+                
+                border-bottom-left-radius: 25px;
+                  
+            }
+              
+            .border-radius-right{
+                
+               border-top-right-radius: 25px;
+                
+               border-bottom-right-radius: 25px;
+             
+                
+            }
+            
+            .text-position{
+                
+                float: left;
+                
+                position: relative;
+                
+                top:5px;
+                        
+            }
+            
+            .clear-float{
+                
+                clear:both;
+                
+                
+            }

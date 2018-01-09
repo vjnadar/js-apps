@@ -1,0 +1,55 @@
+<html>
+    
+    <head>
+        
+        <title>
+            
+            code-editor
+        
+        </title>
+        
+        <script type="text/javascript" src= "jquery.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="codeeditor.css">
+        
+    </head>
+    
+    <body>
+    
+        <div id="top-container">
+            
+            <h1><span id="title">Code Editor</span></h1>
+            
+            <div id="buttons-segment">
+                
+                <h4 id="html" class="button border-radius-left"><span class="text-position">HTML</span></h4>
+                
+                <h4 id="css" class="button"><span class="text-position">CSS</span></h4>
+                
+                <h4 id="js" class="button"><span class="text-position">Javascript</span></h4>
+                
+                <h4 id="output" class="button border-radius-right"><span class="text-position">Output</span></h4>
+                        
+              </div>
+                
+        </div>
+        
+        <div class="clear-float"></div>
+            
+        <div id="editor-segment">
+            
+            <textarea id="htmlPanel" class="panel hidden" placeholder="HTML"><p id="sample">Hi</p></textarea>
+            
+            <textarea id="cssPanel" class="panel hidden" placeholder="CSS">p{color:blue;}</textarea>
+            
+            <textarea id="jsPanel" class="panel hidden" placeholder="Javascript">document.getElementById("sample").innerHTML="Hi there";</textarea>
+            
+            <iframe id="outputPanel" class="panel hidden" placeholder="HTML"></iframe>
+                
+        </div>
+
+        <script type="text/javascript" src="codeeditor.js"></script>
+      
+    </body>
+    
+</html>    
